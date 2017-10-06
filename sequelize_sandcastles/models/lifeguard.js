@@ -5,11 +5,11 @@ module.exports = (sequelize, DataTypes) => {
     last_name: DataTypes.STRING,
     date_started: DataTypes.STRING,
     test_up_to_date: DataTypes.BOOLEAN
-  });
+  }, {timestamps: false});
 
   Lifeguard.associate = function(models) {
     Lifeguard.belongsTo(models.Beach, {
-      foreignKey: 'lifeguardId',
+      foreignKey: 'beachId',
       onDelete: 'CASCADE'
     });
 

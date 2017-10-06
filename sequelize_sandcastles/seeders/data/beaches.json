@@ -1,0 +1,19 @@
+{
+	"beaches": [
+		{
+			"name": "Myrtle Beach",
+			"location": "South Carolina",
+			"sand_rating": "2"
+		},
+		{
+			"name": "Daytona Beach",
+			"location": "Florida",
+			"sand_rating": "3"
+		},
+		{
+			"name": "Tybee Island",
+			"location": "Georgia",
+			"sand_rating": "4"
+		}
+	]
+}

@@ -14,19 +14,18 @@ module.exports = {
       last_name: {
         type: Sequelize.STRING
       },
+      beachId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: 'Beaches',
+          key: 'id'
+      },
       date_started: {
         type: Sequelize.STRING
       },
       test_up_to_date: {
         type: Sequelize.BOOLEAN
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
       }
     });
   },

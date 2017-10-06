@@ -1,0 +1,25 @@
+{
+	"lifeguards": [
+		{
+			"first_name": "John",
+			"last_name": "Doe",
+			"date_started": "May 12, 2008",
+			"test_up_to_date": true,
+			"beachId": 1
+		},
+		{
+			"first_name": "Jane",
+			"last_name": "Does",
+			"date_started": "June 20, 2012",
+			"test_up_to_date": true,
+			"beachId": 2
+		},
+		{
+			"first_name": "Mary",
+			"last_name": "Martin",
+			"date_started": "August 02, 2016",
+			"test_up_to_date": false,
+			"beachId": 3
+		}
+	]
+}

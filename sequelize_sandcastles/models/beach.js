@@ -4,11 +4,11 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     location: DataTypes.STRING,
     sand_rating: DataTypes.INTEGER
-  });
+  }, {timestamps: false});
 
   Beach.associate = function(models) {
     Beach.hasMany(models.Lifeguard, {
-      foreignKey: 'lifeguardId'
+      foreignKey: 'BeachId'
     });
   };
   return Beach;
